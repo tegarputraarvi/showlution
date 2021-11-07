@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #867b00;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ section {
   padding-bottom: 40px;
 }
 .section-header h2 {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
@@ -255,7 +255,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #867b00;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -340,7 +340,7 @@ section {
   color: #012970;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #4154f1;
+  color: #867b00;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -366,7 +366,7 @@ section {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #867b00;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -547,7 +547,7 @@ section {
   font-size: 42px;
   line-height: 0;
   margin-right: 20px;
-  color: #4154f1;
+  color: #867b00;
 }
 .counts .count-box span {
   font-size: 36px;
@@ -638,7 +638,7 @@ section, .features {
   font-size: 24px;
   line-height: 0;
   margin-right: 8px;
-  color: #4154f1;
+  color: #867b00;
 }
 .features .feature-icons {
   margin-top: 120px;
@@ -831,6 +831,7 @@ section, .services {
   color: #444444;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  border-radius: 10px;
 }
 .pricing .price sup {
   font-size: 20px;
@@ -857,6 +858,9 @@ section, .services {
 .pricing ul li {
   padding-bottom: 10px;
 }
+.pricing ul li p {
+  font-size: 12px;
+}
 .pricing ul .na {
   color: #ccc;
   text-decoration: line-through;
@@ -865,17 +869,17 @@ section, .services {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: #867b00;
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid #867b00;
 }
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: #867b00;
   color: #fff;
 }
 .pricing .featured {
@@ -887,7 +891,7 @@ section, .services {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #4154f1;
+  background: #867b00;
   color: #fff;
 }
 
@@ -910,7 +914,7 @@ section, .services {
 }
 .faq .accordion-button:not(.collapsed) {
   background: none;
-  color: #4154f1;
+  color: #867b00;
   border-bottom: 0;
 }
 .faq .accordion-body {
@@ -944,8 +948,8 @@ section, .services {
   border: 1px solid #fff;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color: #867b00;
+  border-color: #867b00;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -1032,7 +1036,7 @@ section, .services {
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: #867b00;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1089,10 +1093,10 @@ section, .services {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #867b00;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #867b00;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1139,6 +1143,25 @@ section, .services {
   flex-direction: column;
   text-align: center;
   transition: 0.3s;
+  border-radius: 10px;
+}
+.testimonials .testimonial-item .btn-buy {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #867b00;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #867b00;
+}
+.testimonials .testimonial-item .btn-buy:hover {
+  background: #867b00;
+  color: #fff;
 }
 .testimonials .testimonial-item .stars {
   margin-bottom: 15px;
@@ -1177,10 +1200,10 @@ section, .services {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #867b00;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #867b00;
 }
 .testimonials .swiper-slide {
   opacity: 0.3;
@@ -1304,10 +1327,10 @@ section, .services {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #867b00;
 }
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #867b00;
 }
 
 /*--------------------------------------------------------------
@@ -1360,7 +1383,7 @@ section, .services {
   font-size: 18px;
 }
 .recent-blog-posts .post-box:hover .post-title {
-  color: #4154f1;
+  color: #867b00;
 }
 .recent-blog-posts .post-box:hover .post-img img {
   transform: rotate(6deg) scale(1.2);
@@ -1373,11 +1396,15 @@ section, .services {
   color: #444444;
   background: #fafbff;
   padding: 30px;
+  border-radius: 10px;
 }
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: #867b00;
+}
+.contact .info-box a {
+  color: #867b00;
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -1440,7 +1467,7 @@ section, .services {
   border-radius: 0;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #4154f1;
+  border-color: #867b00;
 }
 .contact .php-email-form input {
   padding: 10px 15px;
@@ -1449,7 +1476,7 @@ section, .services {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: #867b00;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1503,7 +1530,7 @@ section, .services {
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
-  color: #4154f1;
+  color: #867b00;
 }
 .blog .entry .entry-meta {
   margin-bottom: 15px;
@@ -1540,7 +1567,7 @@ section, .services {
 }
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #4154f1;
+  background: #867b00;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1595,7 +1622,7 @@ section, .services {
   transition: 0.3s;
 }
 .blog .entry .entry-footer a:hover {
-  color: #4154f1;
+  color: #867b00;
 }
 .blog .entry .entry-footer .cats {
   list-style: none;
@@ -1682,7 +1709,7 @@ section, .services {
   transition: 0.3s;
 }
 .blog .blog-comments .comment h5 a:hover {
-  color: #4154f1;
+  color: #867b00;
 }
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
@@ -1763,7 +1790,7 @@ section, .services {
   justify-content: center;
 }
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #4154f1;
+  background: #867b00;
 }
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
   color: #fff;
@@ -1806,7 +1833,7 @@ section, .services {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #4154f1;
+  background: #867b00;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1830,7 +1857,7 @@ section, .services {
   transition: 0.3s;
 }
 .blog .sidebar .categories ul a:hover {
-  color: #4154f1;
+  color: #867b00;
 }
 .blog .sidebar .categories ul a span {
   padding-left: 5px;
@@ -1854,7 +1881,7 @@ section, .services {
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #4154f1;
+  color: #867b00;
 }
 .blog .sidebar .recent-posts time {
   display: block;
@@ -1884,8 +1911,8 @@ section, .services {
 }
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #4154f1;
-  background: #4154f1;
+  border: 1px solid #867b00;
+  background: #867b00;
 }
 .blog .sidebar .tags ul a span {
   padding-left: 5px;
@@ -2030,7 +2057,7 @@ section, .services {
   line-height: 1;
 }
 .footer .footer-top .footer-links ul a:hover {
-  color: #4154f1;
+  color: #867b00;
 }
 .footer .footer-top .footer-contact p {
   line-height: 26px;
